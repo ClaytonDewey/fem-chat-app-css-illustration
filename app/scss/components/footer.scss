@@ -1,0 +1,11 @@
+@use '../util' as *;
+
+.attribution {
+  font-size: var(--fs-small);
+  text-align: center;
+  margin-bottom: rem(40);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

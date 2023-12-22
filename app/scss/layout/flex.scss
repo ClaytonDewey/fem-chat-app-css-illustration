@@ -1,0 +1,15 @@
+@use '../util' as *;
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: rem(64);
+  z-index: 2;
+
+  @include breakpoint(medium) {
+    gap: 0;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,19 @@
+@use '../util' as *;
+
+// Typescale = 1.250 - Major Third
+// https://typescale.com/
+h1 {
+  margin: 0;
+  margin-bottom: rem(24);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: var(--fs-xlarge);
+  color: var(--primary-600);
+}
+
+p {
+  font-size: var(--fs-large);
+  color: var(--dark-grey);
+  line-height: rem(28);
+}
